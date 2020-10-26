@@ -1,0 +1,40 @@
+.container {
+    background-color: white;
+
+    .articleContent {
+        padding: 32px 64px;
+        margin-top: -5px;
+        overflow: hidden;
+        .info {
+            display: flex;
+            align-items: center;
+            
+            .profileImg {
+                border-radius: 100%;
+                height: 55px;
+                overflow: hidden;
+                border: .5px solid #cdcdcd;
+            }
+            .username{
+                color: black;
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 3px;
+                font-weight: bold;
+                margin-right: 25px;
+                margin-left: 25px;
+                margin-top: 3px;
+            }
+            
+        }
+        .postTitle {
+            font-size: 48px;
+            color: #08090a;
+        }
+        .text {
+            font-size: 20px;
+        }
+    }
+
+    
+}
